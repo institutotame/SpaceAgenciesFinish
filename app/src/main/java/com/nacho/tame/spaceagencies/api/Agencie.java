@@ -5,13 +5,88 @@ import java.util.List;
 // Clase para manejar los objetos Agencia devueltos por la API de Internet.
 
 public class Agencie {
-    int id;
-    String name;
-    String countryCode;
-    String abbrev;
-    int type;
-    String infoURL;
-    String wikiURL;
-    List<String> infoURLs;
-    int islsp;
+    private int id;
+    private String name;
+    private String countryCode;
+    private String abbrev;
+    private int type;
+    private String infoURL;
+    private String wikiURL;
+    private List<String> infoURLs;
+    private int islsp;
+
+    public Agencie() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCountryCode() {
+        return countryCode;
+    }
+
+    public void setCountryCode(String countryCode) {
+        this.countryCode = countryCode;
+    }
+
+    public String getAbbrev() {
+        return abbrev;
+    }
+
+    public void setAbbrev(String abbrev) {
+        this.abbrev = abbrev;
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public void setType(int type) {
+        this.type = type;
+    }
+
+    public String getInfoURL() {
+        return infoURL;
+    }
+
+    public void setInfoURL(String infoURL) {
+        this.infoURL = infoURL;
+    }
+
+    public String getWikiURL() {
+        return wikiURL;
+    }
+
+    public void setWikiURL(String wikiURL) {
+        this.wikiURL = wikiURL;
+    }
+
+    public List<String> getInfoURLs() {
+        return infoURLs;
+    }
+
+    public void setInfoURLs(List<String> infoURLs) {
+        this.infoURLs = infoURLs;
+    }
+
+    public int getIslsp() {
+        return islsp;
+    }
+
+    public void setIslsp(int islsp) {
+        this.islsp = islsp;
+    }
 }

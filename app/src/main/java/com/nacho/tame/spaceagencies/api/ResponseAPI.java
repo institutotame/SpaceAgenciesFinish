@@ -9,7 +9,7 @@ import retrofit2.http.GET;
  */
 
 public interface ResponseAPI {
-    @GET("agency/")
+    @GET("agency")
     Call<ResponseModel> loadAgencies();
 
 

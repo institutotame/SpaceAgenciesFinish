@@ -45,7 +45,8 @@ public class Controller implements Callback<ResponseModel> {
         if(response.isSuccessful()){
             ResponseModel responseModel = response.body();
             handler.onResponse(responseModel);
-            Log.d("CONTROLLER", responseModel.getAgencies().get(0).name);
+
+            Log.d("CONTROLLER", responseModel.getTotal()+"");
         }else{
             Log.d("CONTROLLER", response.errorBody().toString());
         }
